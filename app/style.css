@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.recipeList{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+#icon{
+	position: fixed;
+	bottom: 0;
+	font-size: 10px;
+}
+#talkingGuy{
+	height: 62px !important;
+    float: right;
+    margin-right: 6px;
+}
+
+.recipeCard{
+	background: tomato;
+    padding: 5px;
+	width: 380px;
+    height: 346px;
+    margin-top: 10px;
+    line-height: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+}
+
+.img img{
+	height: 238px;
+	width: 320px;
+
+}
+.bottom {
+	display: flex;
+	flex-direction: row;
+	align-content: center; 
+}
+.used, .missing, .likes{
+ 	margin: auto;  
+}
+.header{
+	width: 100%;
+	height: 60px;
+	background: black;
+	/*display: flex;*/
+	line-height: 60px;
+	font-size: 2em;
+	color: white;
+	text-align: center;
+}

@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.recipeList{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.recipeCard{
+	background: tomato;
+  	padding: 5px;
+  	width: 400px;
+  	height: 300px;
+ 	margin-top: 10px;
+   	line-height: 40px;
+  	color: white;
+  	font-weight: bold;
+  	font-size: 1em;
+  	text-align: center;
+}
+
+.img img{
+	width: 320;
+}
+.bottom {
+	display: flex;
+	flex-direction: row;
+	align-content: center; 
+}
+.used, .missing, .likes{
+ 	margin: auto;  
+}
+.header{
+	width: 100%;
+	height: 60px;
+	background: black;
+	/*display: flex;*/
+	line-height: 60px;
+	font-size: 2em;
+	color: white;
+	text-align: center;
+}
